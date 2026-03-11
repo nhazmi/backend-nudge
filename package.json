@@ -12,14 +12,15 @@
   },
   "license": "ISC",
   "author": "nabil",
-  "type": "esmodule",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node src/server.js"
   },
   "dependencies": {
     "dotenv": "^17.3.1",
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "sqlite3": "^5.0.2"
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
